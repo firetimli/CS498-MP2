@@ -1,0 +1,23 @@
+.ItemContainer{
+  margin-top: 10%;
+  padding: 2em;
+  display: block;
+  height: 400px;
+  img{
+    height: 250px;
+  }
+
+  img:hover{
+    height: 300px;
+    z-index: 1;
+    transition: ease 1s;
+  }
+}
+
+// .ItemContainer:hover{
+//   transition: ease 1s;
+//   img{
+//     height: 250px;
+//     z-index: 1;
+//   }
+// }

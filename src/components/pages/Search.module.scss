@@ -1,0 +1,15 @@
+.Search {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+  &-header {
+    color: lightgreen;
+  }
+}
+
+.DropDown_{
+  display: none;
+  justify-content: flex-start;
+}

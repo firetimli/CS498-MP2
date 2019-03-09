@@ -1,0 +1,27 @@
+.MovieView {
+  width: 100% !important;
+
+  margin: 0 auto;
+  padding: 2em;
+
+  &-header {
+    text-transform: capitalize;
+  }
+}
+
+.NavView{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.MovieViewHeader{
+
+}
+
+.ImageContainer{
+  display: block;
+  img{
+    height: 300px;
+  }
+}

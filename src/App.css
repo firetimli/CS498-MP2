@@ -23,6 +23,17 @@
   color: #61dafb;
 }
 
+.ListContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 34%;
+  margin-top: 10%;
+  /*flex-wrap: column;*/
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
