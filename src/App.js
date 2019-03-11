@@ -103,11 +103,11 @@ class App extends Component {
 
           )}/>
 
-          <Route path= "/gallery" render={props => (
+        <Route exact path= "/gallery" render={props => (
                   <Gallery movielist ={this.state.movielist} ShowGallery={this.ShowGallery.bind(this)} GotoMovie = {this.GotoMovie.bind(this)}/>
             )}/>
 
-          <Route path= "/movie" render = {props => (
+          <Route exact path= "/movie" render = {props => (
               <MovieView movie={this.state.current_movie} GotoPrev = {this.GotoPrev.bind(this)} GotoNext = {this.GotoNext.bind(this)}/>
             )}/>
       </div>
